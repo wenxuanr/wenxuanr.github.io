@@ -145,3 +145,22 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+.progress {
+  height: 40px;
+    margin: 5px;
+
+}
+.progress-bar {
+  text-align: left;
+    padding-left:10px;
+    font-size: inherit;
+    font-family: inherit;
+  transition-duration: 3s;
+}
+.progress-bar.green {
+    background-color: #5cb85c;
+}
+
+.progress-bar.yellow {
+    background-color: #f0ad4e;
+}
